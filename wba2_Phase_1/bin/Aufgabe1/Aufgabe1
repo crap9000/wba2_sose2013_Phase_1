@@ -1,0 +1,23 @@
+Aufgabe1
+
+Wohlgeformtheit
+Da jede Meta-Information selbst definiert wird und man sich somit seine eigene Sprache definieren kann, müssen wenigstens gemeinsame Prinzipien erfüllt sein.
+XML-Dokumente, die die allgemeinen Regeln für XML-Dokumente erfüllen, sind wohlgeformt (“wellformed”
+Zum Beispiel:
+- Es darf nur ein Wurzelelmente vorhanden sein
+- Elementnamen dürfen nicht mit einer Zahl beginnen
+- es muss ein Öffnendes(<elementname>) und ein Schließendes(</elementname>) -Tag vorhanden sein.
+
+Validität
+Ein XML- Dokument ist wohlgeformt wenn es den XML-Standard entspricht. Darüber hinaus können mittels einer DTD
+(document type definition) Strukturbeschreibung vorgegeben werden. Wenn das XML-Dokument dieser DTD folgt
+dann ist es auch valide. Valide Dokumente sind wohlgeformt nicht valide Dokumente können aber dennoch wohlgeformt sein.
+In der DTD werden also evtl. Elementnamen, Attribute und Schachtelungen zwingend vorgeschrieben. 
+Die Verarbeitung wird dann auch abgebrochen wenn die zusätzlichen Regeln des DTDs nicht befolgt werden.
+
+Namespaces
+Eine Regelung wie Elemente in XML-Dokumenten zu bezeichnen sind, wenn sie aus verschiedenen DTDs zusammengesetzt sind.
+Es kann vorkommen, dass bei einem Projekt das mehrere DTDs benötigt die Eindeutigkeit der Elementnamen nicht mehr gegeben ist.
+Um ggf. Namenskonflikte zu lösen wird ein Präfix gefolgt von einem Doppelpunkt und dem Elementnamen verwendet.
+Das Präfix wird beim ersten Auftreten mit dem Attribut xmlns definiert und ihm eine URI zugeordnet. die URI deklariert einen Namensraum
+und ordnet diesem Bereich das Präfix zu.

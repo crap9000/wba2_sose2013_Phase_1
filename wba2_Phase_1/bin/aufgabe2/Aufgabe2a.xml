@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+<groupform id="1">
+
+	<groupleader>
+		<name></name>
+		<vorname></vorname>
+		<email></email>
+		<geburtsdatum></geburtsdatum>
+		<erfahrung></erfahrung>
+		<schlagzeug></schlagzeug>
+		<anmerkung></anmerkung>
+	</groupleader>
+
+	<person id="1">
+		<name>Peter</name>
+		<vorname>Hans</vorname>
+		<email>peter.hans@gmx.de</email>
+		<geburtsdatum>20.05.76</geburtsdatum>
+		<erfahrung>Amateur</erfahrung>
+		<schlagzeug>vorhanden</schlagzeug>
+		<anmerkung>Netter Junge</anmerkung>
+	</person>
+
+	<person id="2">
+		<name></name>
+		<vorname></vorname>
+		<email></email>
+		<geburtsdatum></geburtsdatum>
+		<erfahrung></erfahrung>
+		<schlagzeug></schlagzeug>
+		<anmerkung></anmerkung>
+	</person>
+
+</groupform>
+</groups>

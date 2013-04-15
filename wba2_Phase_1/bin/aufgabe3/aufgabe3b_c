@@ -1,0 +1,38 @@
+<!--Aufgabe3 b)-->
+<!-- Die Struktur ist immer die selbe, was sich ändert sind die Bilder, Zutaten, ihre Einheiten und ihre Menge, die Zubereitung etc. -->
+
+<!--Aufgabe3 c)
+XML-Schema
+Allgemein
+XML-Schema beschreibt die Struktur von XML-Dokumenten.
+complexType: kann strukturierten und unstrukturierten Inhalt enthalten.
+simpleType: kann nur unstrukturierten Inhalt enthalten(#PCDATA).
+Attribute
+minOccurs: Gibt die minimale Menge des Elements an.
+maxOccurs:Gibt die maximale Anzahl der Elemente an
+unbounded: heißt unbegrenzt und wird eingesetzt wenn die maximale Anzahl eines Elements nicht bekannt ist und unendlich groß sein kann.
+sequence: Wenn mehrere Elemente aufeinanderfolgen dann wird sequence zur bessere Stukturierung benutzt.. Die XML-Elemente haben eine
+bestimmte Reihenfolge die beachtet werden.
+Anmerkung: Schreibe ich in deiner XSD die Attribute minOccurs und maxOccurs nicht hin dann ist der Standard immer 1..
+Ein Attribut kann nur einfache Datentypen enthalten.
+Das Attribut "type" definiert Datentypen die in dem XML- Element vorkommen können. zb. bolean,string,date,float.
+Das Attribut "duration" definiert die Dauer in Stunden, Minuten und Sekunden.
+Das Attribut "default" definiert einen Standardwert für das Element also welchen Wert das Element beim erstellen haben soll.
+
+Welche Kriterien müssen für meine XSD beachtet werden?
+ XSD Daten sind sowohl in complexType als auch in simpleType abgebildet. Elemente mit Kindelementen müssen in complexType abgebildet werden.
+Wobei einzelne Attribute in simpleType abgebildet werden.
+Bei der Anzahl der Zutaten sollte mindestens eine Zutat vorhanden sein deshalb setze ich das minOccurs auf "1". Wenn kein maxOccurs definiert
+ wird dann liegt der Standardwert auf 1
+deshalb sollte man ein maxOccurs definieren. Da theoretisch die Zutatenlist unbegrenzt sein kann setzte ich den Wert auf "unbounded".
+Einfache Datentypen werden als Attribute abgebildet.
+Es kommen folgende Datentypen zum Einsatz:
+-string (für Texte,Beschreibung,Namen und Einheiten)
+-int (für Mengen Frage: In welchem Datentyp gebe ich 0.5 an, da es als Bruch (1/2) dargestellt wird?)
+-long(für id da es theoretisch eine fortlaufenden Nummer ist die )
+-date(für Datum)
+-anyURI(für Urls z.b. für Bilder, andere Seiten etc.)
+Theoretisch könnte man Restrictions für Mengenangaben(nur Zahlen) oder Einheiten setzen. z.b dass nur g und kg oder TL und EL 
+oder ml und l erlaubt sind.
+Desweiteren könnte man eine Restriction für Schwierigkeitsgrad setzen in dem nur "leicht","mittel" und "schwer" vorhanden sind.
+-->

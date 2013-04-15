@@ -1,0 +1,23 @@
+{
+  "groups": {
+    "groupform": {
+      "-id": "1",
+      "groupleader": {
+        
+      },
+      "person": [
+        {
+          "-id": "1",
+          "name": "Peter",
+          "vorname": "Hans",
+          "email": "peter.hans@gmx.de",
+          "geburtsdatum": "20.05.76",
+          "erfahrung": "Amateur",
+          "schlagzeug": "vorhanden",
+          "anmerkung": "Netter Junge"
+        },
+        { "-id": "2" }
+      ]
+    }
+  }
+}

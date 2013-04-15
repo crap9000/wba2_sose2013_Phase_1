@@ -1,0 +1,32 @@
+JSON(Javascript Object Notation)
+
+vorteile:
+-geringeres Overhead
+-übersichtlichen Notation
+-Unterstützung durch eine Vielzahl von Programmiersprachen
+
+
+Nachteile:
+-keine Validierung
+-geringe Verbreitung
+-keine kommentare
+-wenig werkzeuge (JSON)
+-geringe Verbreitung
+
+
+XML(Extensible Markup Language)
+
+Vorteile:
+-große Verbreitung
+-gut komprimierbar
+-Systemunabhängig
+-Viele Werkzeuge(XML)
+-Kommentare möglich
+-Einfaches Debugging
+-erweiterbar
+
+
+Nachteile:
+-großer Overhead
+-Nicht gut geeignet für Binärdaten
+-komplexe Syntax 

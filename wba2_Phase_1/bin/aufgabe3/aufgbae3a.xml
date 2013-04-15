@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezepte>
+	<rezept id="1">
+		<name>Lenchen's Schokoladenkuchen</name>
+		<bilder>
+			<bild id="1">
+				<src>http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/8082-960x720-lenchen_s_schokoladenkuchen.jpg</src>
+			</bild>
+		</bilder>
+		<zutaten>
+			<zutat id="1">
+				<name>Butter</name>
+				<menge>200</menge>
+				<einheit>Gramm</einheit>
+			</zutat>
+			<zutat id="2">
+				<name>Zucker</name>
+				<menge>200</menge>
+				<einheit>Gramm</einheit>
+			</zutat>
+			<zutat id="3">
+				<name>Schockolade</name>
+				<menge>200</menge>
+				<einheit>Gramm</einheit>
+
+			</zutat>
+			<zutat id="4">
+				<name>Backpulver</name>
+				<menge>0,5</menge>
+				<einheit>Teelöfel</einheit>
+			</zutat>
+
+			<zutat id="5">
+				<name>Mehl</name>
+				<menge>120</menge>
+				<einheit>Gramm</einheit>
+			</zutat>
+			<zutat id="6">
+				<name>Vanillezucker</name>
+				<menge>1</menge>
+				<einheit>Packung</einheit>
+			</zutat>
+			<zutat id="7">
+				<name>Eier</name>
+				<menge>4</menge>
+				<einheit>Anzahl</einheit>
+			</zutat>
+		</zutaten>
+		<zubereitung>
+			<arbeitszeit>
+				<menge>1</menge>
+				<einheit>Stunden</einheit>
+			</arbeitszeit>
+			<schwierigkeitsgrad>normal</schwierigkeitsgrad>
+			<brennwertpP>
+				<menge>295</menge>
+				<einheit>kcal</einheit>
+			</brennwertpP>
+			<beschreibung>
+				Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. 
+				Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen
+				und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen 
+				Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben.
+				Bei 180°Grad 40 – 50 Minuten backen.
+			</beschreibung>
+		</zubereitung>
+		<kommentare>
+			<kommentar id="1">
+				<kommentator name="Sternchen1972"></kommentator>
+				<bild>
+					<src></src>
+				</bild>
+				<datum></datum>
+				<text>Ich würde sagen, der perfekte Elisenlebkuchen. Habe mich ziemlich genau an das Rezept 
+				gehalten und es funktioniert genau so, wie beschrieben. </text>
+			</kommentar>
+		</kommentare>
+	</rezept>
+</rezepte>
